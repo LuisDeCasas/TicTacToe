@@ -94,13 +94,7 @@ class TicTacToe extends React.Component {
                 positions={this.state.board} 
                 squareHandle={this.handleClick}
             />
-            {this.state.board && (<div> <h1>hello</h1>
-                                    <ul>{this.state.board.map(
-                                        (el,key) => (<li>{key}</li>))
-                                        }
-                                    </ul>
-                                </div>)
-            }
+
         </div>
       );
     }
